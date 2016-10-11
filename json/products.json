@@ -6,16 +6,16 @@
             "name": "Fairy Sparklers",
             "description": "Multi-colored sparklers that are safe for any age."
         },
-        "fairy_sparklers": {
+        "dusty_sparklers": {
             "id": 1,
             "type": 0,
-            "name": "Fairy Sparklers",
+            "name": "Dusty Sparklers",
             "description": "Multi-colored sparklers that are safe for any age."
         },
-        "fairy_sparklers": {
+        "daisy_sparklers": {
             "id": 2,
             "type": 0,
-            "name": "Fairy Sparklers",
+            "name": "Daisy Sparklers",
             "description": "Multi-colored sparklers that are safe for any age."
         },
         "crazy_sparklers": {
@@ -24,16 +24,16 @@
             "name": "Crazy Sparklers",
             "description": "Multi-colored sparklers that are safe for maniacs."
         },
-        "crazy_sparklers": {
+        "frenzy_sparklers": {
             "id": 4,
             "type": 1,
-            "name": "Crazy Sparklers",
+            "name": "Frenzy Sparklers",
             "description": "Multi-colored sparklers that are safe for maniacs."
         },
-        "crazy_sparklers": {
+        "Mazy_sparklers": {
             "id": 5,
             "type": 1,
-            "name": "Crazy Sparklers",
+            "name": "Mazy Sparklers",
             "description": "Multi-colored sparklers that are safe for maniacs."
         },
         "zany_sparklers": {
@@ -42,16 +42,16 @@
             "name": "Zany Sparklers",
             "description": "Multi-colored sparklers that are safe for no one."
         },
-        "zany_sparklers": {
+        "insane_sparklers": {
             "id": 7,
             "type": 2,
-            "name": "Zany Sparklers",
+            "name": "Insane Sparklers",
             "description": "Multi-colored sparklers that are safe for no one."
         },
-        "zany_sparklers": {
+        "sparking_sparklers": {
             "id": 8,
             "type": 2,
-            "name": "Zany Sparklers",
+            "name": "Sparking Sparklers",
             "description": "Multi-colored sparklers that are safe for no one."
         },
         "tnt": {
@@ -60,16 +60,16 @@
             "name": "Stick of TNT",
             "description": "Pretty sure TNT and Dynamite are the same? Might have learned this from bugs bunny..."
         },
-        "tnt": {
+        "dynamite": {
             "id": 10,
             "type": 3,
-            "name": "Stick of TNT",
+            "name": "Stick of dynamite",
             "description": "Pretty sure TNT and Dynamite are the same? Might have learned this from bugs bunny..."
         },
-        "tnt": {
+        "loud_boom": {
             "id": 11,
             "type": 3,
-            "name": "Stick of TNT",
+            "name": "Stick of Loud Boom",
             "description": "Pretty sure TNT and Dynamite are the same? Might have learned this from bugs bunny..."
         },
         "napalm": {
@@ -78,16 +78,16 @@
             "name": "Napalm",
             "description": "Sounds scary."
         },
-        "napalm": {
+        "firebreather": {
             "id": 13,
             "type": 4,
-            "name": "Napalm",
+            "name": "Firebreather",
             "description": "Sounds scary."
         },
-        "napalm": {
+        "actual_dragon": {
             "id": 14,
             "type": 4,
-            "name": "Napalm",
+            "name": "Actual Dragon",
             "description": "Sounds scary."
         },
         "rocket": {
@@ -96,16 +96,16 @@
             "name": "rocket wut",
             "description": "Sounds scary."
         },
-        "rocket": {
+        "smaug": {
             "id": 16,
             "type": 5,
-            "name": "rocket wut",
+            "name": "Smaug",
             "description": "Sounds scary."
         },
-        "rocket": {
+        "hot_sauce": {
             "id": 17,
             "type": 5,
-            "name": "rocket wut",
+            "name": "Hot Sauce",
             "description": "Sounds scary."
         }
     }]

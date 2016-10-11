@@ -1,5 +1,4 @@
 "use strict";
-
 $(document).ready(() => {
 	console.log("loading");
 	let choiceDiv = $("#choice");
@@ -7,6 +6,7 @@ $(document).ready(() => {
 	var categories = [];
 	var types = [];
 	var products = [];
+	var productsList = [];
 
 	function getCategories(){
 		return new Promise( (resolve, reject) => {
@@ -47,7 +47,13 @@ $(document).ready(() => {
 		categories = categoriesData.categories;
 		loadCategories(categories);
 	});
-
+	
+	getProducts().then( (productsData) =>{
+				products =productsData.products;
+				$.each(products, (key, product) =>{
+				productsList = products[key];
+				});
+	});
 	function loadCategories(categoriesList) {
 		choiceDiv.html("");
 		var choiceConcat =`<div class="dropdown open">
@@ -60,37 +66,45 @@ $(document).ready(() => {
 		choiceDiv.append(choiceConcat);
   		$('#dropdownMenuButton').dropdown();
 		$(".dropdown-item").click(function (event){
+			productsDiv.html("");
 			var dropdownId = parseInt(event.target.id);
+			var dropdownName =event.target.innerHTML;
 			getTypes().then( (typesData) => {
 				types = typesData.types;
 				// console.log(dropdownId);
-				loadTypes(dropdownId);
+				loadTypes(dropdownId, dropdownName);
 			});
 			
-
 		});
 	}
 
-	function loadTypes(categoryId) {
-		getProducts().then( (productsData) => {
-			products = productsData.products;
-		});
+	function loadTypes(categoryId, categoryName) {
+		
 		$.each(types, (key, type) => {
 			if (categoryId === types[key].category) {
 				var clickId = types[key].id;
-				loadProducts(clickId);
+				var clickName = types[key].name;
+				loadProducts(clickId, clickName, categoryName);
+			
+
 			}
 		});
 		
 		
 	}
-	function loadProducts(typeId) {
-		// $.each(typeId, (key, id) =>{
-		// 	console.log(typeId[key].id);
-		// });
-		$.each(products, (key, product) =>{
-			console.log(products[key].type);
-		});
+	function loadProducts(typeId, typeName, categoryName) {
+			var productsConcat = `<div class="container"><div class="row">`
+			$.each(productsList, (key, item) =>{
+				if (typeId === productsList[key].type){
+					productsConcat += `<div class="col-md-4"><h4>${productsList[key].name}</h4><li>${typeName}</li><li>${categoryName}</li></div>`;
+					
+				}
+				
+			});
+			productsConcat += `</div></div>`;
+			productsDiv.append(productsConcat);
+
+
 	}
 
 	
