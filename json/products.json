@@ -1,0 +1,112 @@
+{
+    "products": [{
+        "fairy_sparklers": {
+            "id": 0,
+            "type": 0,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "fairy_sparklers": {
+            "id": 1,
+            "type": 0,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "fairy_sparklers": {
+            "id": 2,
+            "type": 0,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "crazy_sparklers": {
+            "id": 3,
+            "type": 1,
+            "name": "Crazy Sparklers",
+            "description": "Multi-colored sparklers that are safe for maniacs."
+        },
+        "crazy_sparklers": {
+            "id": 4,
+            "type": 1,
+            "name": "Crazy Sparklers",
+            "description": "Multi-colored sparklers that are safe for maniacs."
+        },
+        "crazy_sparklers": {
+            "id": 5,
+            "type": 1,
+            "name": "Crazy Sparklers",
+            "description": "Multi-colored sparklers that are safe for maniacs."
+        },
+        "zany_sparklers": {
+            "id": 6,
+            "type": 2,
+            "name": "Zany Sparklers",
+            "description": "Multi-colored sparklers that are safe for no one."
+        },
+        "zany_sparklers": {
+            "id": 7,
+            "type": 2,
+            "name": "Zany Sparklers",
+            "description": "Multi-colored sparklers that are safe for no one."
+        },
+        "zany_sparklers": {
+            "id": 8,
+            "type": 2,
+            "name": "Zany Sparklers",
+            "description": "Multi-colored sparklers that are safe for no one."
+        },
+        "tnt": {
+            "id": 9,
+            "type": 3,
+            "name": "Stick of TNT",
+            "description": "Pretty sure TNT and Dynamite are the same? Might have learned this from bugs bunny..."
+        },
+        "tnt": {
+            "id": 10,
+            "type": 3,
+            "name": "Stick of TNT",
+            "description": "Pretty sure TNT and Dynamite are the same? Might have learned this from bugs bunny..."
+        },
+        "tnt": {
+            "id": 11,
+            "type": 3,
+            "name": "Stick of TNT",
+            "description": "Pretty sure TNT and Dynamite are the same? Might have learned this from bugs bunny..."
+        },
+        "napalm": {
+            "id": 12,
+            "type": 4,
+            "name": "Napalm",
+            "description": "Sounds scary."
+        },
+        "napalm": {
+            "id": 13,
+            "type": 4,
+            "name": "Napalm",
+            "description": "Sounds scary."
+        },
+        "napalm": {
+            "id": 14,
+            "type": 4,
+            "name": "Napalm",
+            "description": "Sounds scary."
+        },
+        "rocket": {
+            "id": 15,
+            "type": 5,
+            "name": "rocket wut",
+            "description": "Sounds scary."
+        },
+        "rocket": {
+            "id": 16,
+            "type": 5,
+            "name": "rocket wut",
+            "description": "Sounds scary."
+        },
+        "rocket": {
+            "id": 17,
+            "type": 5,
+            "name": "rocket wut",
+            "description": "Sounds scary."
+        }
+    }]
+}

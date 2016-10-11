@@ -1,0 +1,23 @@
+{
+  "name": "acme",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Zoe LeBlanc"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "acme"
+  ],
+  "homepage": "https://github.com/ZoeLeBlanc/acme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
